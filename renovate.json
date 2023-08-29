@@ -12,7 +12,7 @@
       {
         "customType": "regex",
         "matchStrings": [
-          "node:(?<currentValue>.*?)\n"
+          "node:(?<currentValue>.*?)(\s|\n)"
         ],
         "fileMatch": ["^Dockerfile$", "\\.gitlab-ci\\.yml$"],
         "depNameTemplate": "node",
