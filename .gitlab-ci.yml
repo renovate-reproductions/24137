@@ -1,0 +1,4 @@
+Test Job:
+  image: node:16.15.0
+  script:
+    - echo 'Hello World'
