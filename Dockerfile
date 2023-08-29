@@ -1,11 +1,11 @@
-FROM node:16.15.0 as builder
+FROM node:18.17.1 as builder
 
 RUN echo "Hello world"
 
-FROM node:16.15.0-alpine as production-builder
+FROM node:18.17.1 as production-builder
 
 RUN echo "Hello world"
 
-FROM node:16.15.0-alpine as production
+FROM node:18.17.1 as production
 
 RUN echo "Hello world"

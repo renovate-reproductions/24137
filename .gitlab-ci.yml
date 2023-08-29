@@ -1,4 +1,4 @@
 Test Job:
-  image: node:16.15.0
+  image: node:18.17.1
   script:
     - echo 'Hello World'
